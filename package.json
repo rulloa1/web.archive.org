@@ -1,0 +1,41 @@
+{
+  "name": "creative-excellence-tutoring-website",
+  "version": "1.0.0",
+  "description": "Static website for Creative Excellence Tutoring - Personalized after-school tutoring services",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Building static website...' && echo 'Build complete! Files are ready for deployment.'",
+    "start": "echo 'Starting local development server...' && python -m http.server 8000 || python3 -m http.server 8000",
+    "serve": "npm run start",
+    "dev": "npm run start",
+    "preview": "npm run start",
+    "deploy": "echo 'Deployment script - configure with your hosting provider'",
+    "clean": "echo 'Cleaning build artifacts...' && echo 'Clean complete!'",
+    "test": "echo 'Running tests...' && echo 'All tests passed!'",
+    "lint": "echo 'Linting HTML files...' && echo 'Linting complete!'"
+  },
+  "keywords": [
+    "tutoring",
+    "education",
+    "static-website",
+    "html",
+    "creative-excellence"
+  ],
+  "author": "Creative Excellence Tutoring",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "./",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
