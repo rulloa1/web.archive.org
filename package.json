@@ -5,10 +5,10 @@
   "main": "index.html",
   "scripts": {
     "build": "echo 'Building static website...' && echo 'Build complete! Files are ready for deployment.'",
-    "start": "echo 'Starting local development server...' && python -m http.server 8000 || python3 -m http.server 8000",
+    "start": "node server.js",
     "serve": "npm run start",
-    "dev": "npm run start",
-    "preview": "npm run start",
+    "dev": "node server.js",
+    "preview": "node server.js",
     "deploy": "echo 'Deployment script - configure with your hosting provider'",
     "clean": "echo 'Cleaning build artifacts...' && echo 'Clean complete!'",
     "test": "echo 'Running tests...' && echo 'All tests passed!'",
